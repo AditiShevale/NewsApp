@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements AsyncListner {
         new MyAsyncTask().execute(Networkutils.buildUrl());
         //Networkutils.buildUrl();
 //        makegithubsearchQuery();
+        Toast.makeText(this, "Welcome to the party !!", Toast.LENGTH_SHORT).show();
 
 
 
